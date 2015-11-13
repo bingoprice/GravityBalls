@@ -50,7 +50,7 @@ void draw() {
     velY[j]++;
   }
   if(dist(x[j], y[j], mouseX,mouseY)<=diam[j]/2){                        //if the mouse touchs a ball the size and color will change
-   c[j] = color(random(255),random(36), random(100));
+   c[j] = color(random(255),random(195), random(186));
     diam[j] = random(50,60);
   }
   }
